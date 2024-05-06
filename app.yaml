@@ -2,7 +2,7 @@ runtime: php
 env: flex
 
 runtime_config:
-  document_root: /home/rushikiran8103/Rushikiran-G
+  document_root: app.yaml
 
 env_variables:
   MYSQL_DSN: mysql:host=icon;dbname=iconDb
