@@ -1,0 +1,14 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: /web
+
+env_variables:
+  MYSQL_DSN: mysql:host=icon;dbname=iconDb
+  MYSQL_USER: icon
+  MYSQL_PASSWORD: icon
+
+handlers:
+- url: /.*
+  script: auto
